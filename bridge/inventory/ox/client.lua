@@ -1,0 +1,7 @@
+local OxInventory = {}
+
+
+
+
+
+return OxInventory
