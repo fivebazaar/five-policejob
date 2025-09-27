@@ -6,10 +6,14 @@ description 'Five Police Job'
 
 client_scripts {
     'client/*.lua',
+    'bridge/framework/init.lua',
+    'bridge/inventory/init.lua'
 }
 
 server_scripts {
     'server/*.lua',
+    'bridge/framework/init.lua',
+    'bridge/inventory/init.lua'
 }
 
 shared_scripts {
