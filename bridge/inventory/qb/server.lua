@@ -22,7 +22,6 @@ function QbInventory.CreateStash(data)
         maxweight = data.weight or 1000000,
         slots = data.slots or 30,
     })
-    
 end
 
 
