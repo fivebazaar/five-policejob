@@ -25,7 +25,8 @@ files {
     'bridge/framework/**/client.lua',
     'bridge/framework/**/server.lua',
     'bridge/inventory/**/client.lua',
-    'bridge/inventory/**/server.lua'
+    'bridge/inventory/**/server.lua',
+    'config.lua'
 }
 
 dependency 'ox_lib'
