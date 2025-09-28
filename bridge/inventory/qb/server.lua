@@ -14,7 +14,7 @@ function QbInventory.CreateShop(id, data)
 
 end
 
-function QbInventory.CreateStash(data)
+function QbInventory.CreateStash(data) -- TODO: ox_inventory`nin ownershipine karşılık gelecek şekilde düzenle
     if not data then lib.print.error("Invalid stash data") return end
 
     exports['qb-inventory']:CreateInventory(data.id,{

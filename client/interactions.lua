@@ -1,7 +1,7 @@
 local Interactions
 
 
-local selectedInteraction = Config.Interactions.interactions -- veya stasharmory için ayrı field
+local selectedInteraction = Config.Interactions.interactions
 
 
 if selectedInteraction == 'ox_target' then
