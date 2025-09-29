@@ -3,6 +3,7 @@ game 'gta5'
 
 author 'fivebazaar'
 description 'Five Police Job'
+lua54 'yes'
 
 client_scripts {
     'client/*.lua',
