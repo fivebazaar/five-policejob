@@ -14,7 +14,15 @@ CreateThread(function()
             })
         end
         if v.stash then
-            Inventory.CreateStash('jobstash_'..v.jobName, v.stash.label, v.stash.slots, v.stash.weight, true, {[v.jobName] = 0}, v.stash.coords )
+            local stash = {
+                id = 'jobstash_'..v.jobName,
+                label = v.stash.label,
+                slots = v.stash.slots,
+                weight = v.stash.weight,
+                groups = {[v.jobName] = 0},
+                coords = v.stash.coords
+            }
+            Inventory.CreateStash(stash.id, stash.label, stash.slots, stash.weight, true, stash.groups, stash.coords)
         end
     end
 end)

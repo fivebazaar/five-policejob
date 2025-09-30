@@ -1,6 +1,6 @@
 local Interactions
 
-
+local Config = require 'config'
 local selectedInteraction = Config.Interactions.interactions
 
 

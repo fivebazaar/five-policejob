@@ -17,21 +17,12 @@ return {
                 label = 'Police Armory',
                 coords = vector3(451.2, -980.1, 30.6),
                 items = {
-                    { name = 'weapon_pistol', amount = 1, info = {}, type = 'weapon', slot = 1 },
-                    { name = 'handcuffs', amount = 5, info = {}, type = 'item', slot = 2 },
-                    { name = 'radio', amount = 1, info = {}, type = 'item', slot = 3 },
-                    { name = 'bodycam', amount = 1, info = {}, type = 'item', slot = 4 },
-                    { name = 'firstaid', amount = 5, info = {}, type = 'item', slot = 5 },
-                    { name = 'bandage', amount = 10, info = {}, type = 'item', slot = 6 },
-                    { name = 'flashlight', amount = 5, info = {}, type = 'item', slot = 7 },
-                    { name = 'weapon_stungun', amount = 1, info = {}, type = 'weapon', slot = 8 },
-                    { name = 'weapon_nightstick', amount = 1, info = {}, type = 'weapon', slot = 9 },
-                    { name = 'weapon_carbinerifle', amount = 1, info = {}, type = 'weapon', slot = 10 },
+                    { name = 'weapon_pistol', price = 0},
                 }
             },
             stash = {
                 label = 'Police Stash',
-                coords = vector3(461.4, -997.5, 30.6),
+                coords = vector3(459.97, -978.75, 30.69),
                 slots = 50,
                 weight = 1000000,
             }

@@ -27,6 +27,7 @@ files {
     'bridge/framework/**/server.lua',
     'bridge/inventory/**/client.lua',
     'bridge/inventory/**/server.lua',
+    'bridge/interactions/*.lua',
     'config.lua'
 }
 
